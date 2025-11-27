@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background: #111;
+  color: white;
+  user-select: none;
+}
+
+#yesBtn,
+#noBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#yesBtn {
+  background: #4caf50;
+  color: white;
+  margin-right: 20px;
+}
+
+#noBtn {
+  background: #e53935;
+  color: white;
+  position: absolute;
+}
+
+#answer {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #ffeb3b;
+}
